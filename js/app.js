@@ -1,4 +1,4 @@
-import AirPlane from './AirPlane.js';
+import AirPlane from './Airplane.js';
 import {Parachutist} from "./Parachutist.js";
 import {ParachutistType, SpeedParameters} from "./Parachutist.js";
 import Coordinate from "./Coordinate.js";
@@ -10,7 +10,7 @@ let m_backgroundImage = new Image();
 m_backgroundImage.src = './resources/background.png';
 
 const m_gameOverBackgroundImage = new Image();
-m_gameOverBackgroundImage.src = './resources/gameOverBackground.png';
+m_gameOverBackgroundImage.src = './resources/game-over-background.png';
 const speed = 20; // lower is faster
 
 // Main program
