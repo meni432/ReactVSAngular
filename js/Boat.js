@@ -1,7 +1,7 @@
 import MovementProvider, {EndWayStrategy} from "./MovementProvider.js";
 import Coordinate from "./Coordinate.js";
 
-const MOVEMENT_DX = 1.5;
+const MOVEMENT_DX = 2.5;
 const MOVEMENT_DY = 0;
 
 const BOAT_Y_POSITION = 485;
